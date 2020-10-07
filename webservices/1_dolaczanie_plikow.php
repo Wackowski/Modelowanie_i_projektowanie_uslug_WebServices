@@ -9,7 +9,10 @@
     <h3>Początek pliku</h3>
     <?php
         include './1_file.php';
-        
+        include_once './1_file.php';
+
+        require './1_file.php';
+        require_once './1_file.php';
     ?>
     <h3>Koniec pliku</h3>
 </body>
